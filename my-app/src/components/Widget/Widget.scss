@@ -1,0 +1,78 @@
+.Widget{
+  &-wrapper {
+    min-height: 400px;
+    display: grid;
+    grid-template-rows:auto auto ;
+
+  }
+  &-left{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(https://img1.goodfon.ru/original/1920x1280/4/f9/shveycariya-gory-holmy-radio.jpg) 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: ghostwhite;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+  }
+  &-right{
+    display: grid;
+    align-items: center;
+    padding-left: 5%;
+    background-color: #355a99;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+  }
+  &-input{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content:start;
+    input{
+      display: grid;
+      width: 70%;
+      margin-right: 3%;
+      height: 100%;
+      //outline: none;
+      //border: none;
+
+      padding-bottom: 0.5%;
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      border: none;
+      border-bottom: 2px solid black;
+      background-color: transparent;
+      color: inherit;
+      outline: none;
+    }
+    div{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      border:solid 2px black;
+      height: 100%;
+      margin-right: 30%;
+      width: 30%;
+      font-family: Nunito;
+      font-style: normal;
+      font-size: 18px;
+      color:ghostwhite;
+    }
+  }
+  &-data{
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 18px;
+    color:#bfc2c3;
+    div{
+      margin-top: 1%;
+      display: grid;
+      justify-content: start;
+    }
+  }
+}
