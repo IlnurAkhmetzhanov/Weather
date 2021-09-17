@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Front Style Guide
 
 Основной стек: TypeScript, React, Webpack, SCSS
+----
 
 
 ## Available Scripts
