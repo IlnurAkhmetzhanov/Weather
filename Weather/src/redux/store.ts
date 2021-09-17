@@ -3,6 +3,6 @@ import {applyMiddleware, combineReducers, createStore} from "redux";
 import thunk from 'redux-thunk';
 
 const rootReducer = combineReducers({
-    weatherReducer:weatherReducer
+    weatherReducer: weatherReducer
 });
-export const store=createStore(rootReducer, applyMiddleware(thunk))
+export const store = createStore(rootReducer, applyMiddleware(thunk))
